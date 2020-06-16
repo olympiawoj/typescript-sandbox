@@ -11,6 +11,9 @@ var strArr;
 var numArr;
 var boolArr;
 var strNumTuple;
+var myVoid = undefined;
+var myNull = undefined;
+var myUndefined = undefined;
 myString = 'Hello World';
 myNum = 222;
 myBool = true;
@@ -20,4 +23,4 @@ numArr = [1, 2, 3];
 boolArr = [true, false, true];
 strNumTuple = ['Hello', 4];
 //strNumTuple = [4, 'Hello'] //error - has to match exactly
-console.log(strNumTuple);
+console.log(myVoid);
