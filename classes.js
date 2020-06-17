@@ -8,7 +8,10 @@ var User = /** @class */ (function () {
         this.age = age;
         console.log("User created: " + this.name);
     }
+    User.prototype.register = function () {
+        console.log(this.name + ' is now registered');
+    };
     return User;
 }());
 var john = new User('John', "jdoe@gmail.com", 34);
-console.log(john.age);
+console.log(john.register());

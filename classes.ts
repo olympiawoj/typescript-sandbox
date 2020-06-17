@@ -13,9 +13,13 @@ class User {
 
         console.log(`User created: ${this.name}`);
     }
+
+    register() {
+        console.log(this.name + ' is now registered')
+    }
 }
 
 
 let john = new User('John', "jdoe@gmail.com", 34)
 
-console.log(john.age)
+console.log(john.register())
