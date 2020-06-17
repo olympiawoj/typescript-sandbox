@@ -15,9 +15,9 @@ var boolArr: Array<boolean>;
 
 var strNumTuple: [string, number]
 
-var myVoid: void = undefined;
-var myNull: null = undefined;
-var myUndefined: undefined = undefined;
+// var myVoid: void = undefined;
+// var myNull: null = undefined;
+// var myUndefined: undefined = undefined;
 
 myString = 'Hello World'
 myNum = 222

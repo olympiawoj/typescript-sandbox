@@ -1,3 +1,4 @@
+// accepts numbers and returns a number
 function getSum(num1, num2) {
     return num1 + num2;
 }
@@ -13,3 +14,14 @@ var mySum = function (num1, num2) {
     return num1 + num2;
 };
 console.log(mySum(3, '5'));
+// ? makes optional
+function getName(firstName, lastName) {
+    if (lastName == undefined) {
+        return firstName;
+    }
+    return firstName + ' ' + lastName;
+}
+console.log(getName("John"));
+function myVoid() {
+    return;
+}
