@@ -1,7 +1,15 @@
-class User {
-    private name: string;
-    private email: string;
-    public age: number
+interface UserInterface {
+    name: string;
+    email: string;
+    age: number;
+    register(): any;
+    payInvoice(): any;
+}
+
+class User implements UserInterface {
+    name: string;
+    email: string;
+    age: number
 
     //constructor is a 
     constructor(name: string, email: string, age: number) {
